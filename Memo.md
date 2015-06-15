@@ -31,3 +31,8 @@ Memo
 - リクエストから全てのデータをアプリケーションに渡すのはHTTPサーバの仕事。
   POSTデータの処理はサーバ内で行い、 最終的なデータをルータやリクエストハンドラに渡す。
   ルータやリクエストハンドラがそれをどう扱うかを決める。
+
+# File upload
+
+- node-formidable module => HTTP POST で送られたフォームデータをパースできるようになる
+- fs module => File system
